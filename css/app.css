@@ -1,0 +1,119 @@
+:root {
+  --bright-blue: #0e63f4;
+  --dark-blue: #1d2b4f;
+  --baby-blue: #e4f1ff;
+  --grey: #f7f9fe;
+  --dark-grey: #8a9ead;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+header {
+  background-color: var(--bright-blue);
+  height: 4.5rem;
+}
+
+#logo {
+  height: 2.5rem;
+}
+
+.dropdown-toggle {
+  color: white;
+}
+
+#welcome {
+  border-bottom: 3px solid #8a9ead3b;
+  border-radius: 15px;
+}
+
+h1 {
+  color: var(--dark-grey);
+  font-weight: 100;
+}
+
+#doctorImg {
+  width: 20rem;
+}
+
+div.d-flex.flex-column.p-3 {
+  width: 13rem;
+}
+
+aside {
+  background-color: var(--bright-blue);
+  max-height: 100%;
+  width: 13rem;
+}
+
+.menuIcon {
+  margin-right: 0.5rem;
+}
+
+svg {
+  fill: white;
+}
+
+.menuIcon:hover {
+  fill: var(--dark-blue);
+}
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  background-color: var(--baby-blue);
+}
+
+.form-control {
+  border-radius: 10px;
+}
+
+.categoriesCard .card-title {
+  color: var(--dark-blue);
+}
+
+/* .card-body{
+  height: 100%;
+} */
+
+a {
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: var(--bright-blue);
+}
+
+.categoriesCard {
+  height: 100%;
+}
+
+.categoriesCard .btn-primary {
+  width: 100%;
+}
+
+.foundationsCard {
+  font-size: smaller;
+  height: fit-content;
+}
+
+.foundationsCard img {
+  height: 10rem;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}

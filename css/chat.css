@@ -1,0 +1,54 @@
+:root {
+  --bright-blue: #0e63f4;
+  --dark-blue: #1d2b4f;
+  --baby-blue: #e4f1ff;
+  --grey: #d7d7d7;
+  --dark-grey: #8a9ead;
+}
+
+.chats-section {
+  background-color: white;
+}
+
+.chats-section input {
+  border-radius: 30px;
+  border: 1px solid var(--dark-grey);
+  height: 2.5rem;
+}
+
+.chats-section #big-hr:not([size]) {
+  height: 2px;
+  color: var(--dark-grey);
+}
+
+#chats h5 {
+  font-weight: 500;
+}
+
+#chats h6 {
+  font-size: 0.8rem;
+  color: var(--dark-grey);
+}
+
+#chats .time {
+  color: var(--dark-grey);
+}
+
+#chats img {
+  height: 100%;
+  border-radius: 50%;
+  width: 100%;
+}
+
+#chats .small-hr:not([size]) {
+  color: var(--dark-blue);
+  opacity: 0.5;
+}
+
+#chats .msg-num {
+  background-color: var(--bright-blue);
+  width: 40%;
+  color: white;
+  border-radius: 7px;
+  text-align: center;
+}

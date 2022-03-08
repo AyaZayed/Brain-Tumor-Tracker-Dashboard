@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/indextwo.css" />
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/settings.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@300;400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- top navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark mb-4 sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar"
+                aria-controls="offcanvasExample">
+                <span class="navbar-toggler-icon" data-bs-target="#sidebar"></span>
+            </button>
+            <a class="navbar-brand me-auto ms-lg-0 ms-3 me-5 text-uppercase fw-bold" href="#">
+                <img src="images/newlogo.png" alt="no img" style="max-height: 43px;" class="me-5">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNavBar"
+                aria-controls="topNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="topNavBar">
+                <form class="d-flex ms-lg-5 my-3 w-50 me-auto  my-lg-0">
+                    <div class="input-group">
+                        <input class="form-control" type="search" placeholder=" Search Doctor" aria-label="Search" />
+                    </div>
+                </form>
+                <ul class="navbar-nav">
+                    <li class="text-light me-4 ms-3 my-2">
+                        <i class="fa-solid fa-bell"></i>
+                    </li>
+                    <li>
+                        <img src="images/earl hazel.jpg" alt="no img" class="logooimg profileImg" id="profileImg">
+                        <span class="text-light">Emily Haden</span>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle ms-2" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="bi bi-person-fill"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- top navigation bar -->
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start sidebar-nav" tabindex="-1" id="sidebar">
+        <div class="offcanvas-body p-0">
+            <h3 class="px-3 text-light mt-5">Menu</h3>
+            <nav class="navbar-dark ">
+                <ul class="navbar-nav">
+
+                    <li>
+                        <a href="#" class="nav-link px-3 py-3 active">
+                            <span class="me-2"><i class="fa-solid fa-house"></i></span>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="nav-link px-3 py-3 active">
+                            <span class="me-2"><i class="fa-solid fa-user-doctor"></i></span>
+                            <span>Doctors</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-3 py-3 active">
+                            <span class="me-2"><i class="fa-solid fa-list-check"></i></span>
+                            <span>Categories</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-3 py-3 active">
+                            <span class="me-2"><i class="fa-solid fa-location-dot"></i></span>
+                            <span>Radiology Centers</span>
+                        </a>
+                    </li>
+                    <!-- <li class="my-4"><hr class="dropdown-divider bg-light" /></li> -->
+                    <li>
+                        <a href="#" class="nav-link px-3 py-3 active">
+                            <span class="me-2"><i class="fa-solid fa-gear"></i></span>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+
+                    <li class="logout">
+                        <a href="#" class="nav-link px-3 py-3 active">
+                            <span class="me-2 mt-5"><i class="fa-solid fa-right-from-bracket"></i></span>
+                            <span class="mt-5">Log Out</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <main>
+        <div class="container-fluid">
+            <!-- Page Heading -->
+            <div class="row justify content-between pt-3" id="settings-page">
+                <div class="col-md-1"></div>
+                <div class="col-12 col-md-4">
+                    <div class="card mb-4 settingsCard">
+                        <div class="card-body ">
+                            <div class="d-flex flex-column align-items-center py-5">
+                                <div class="imgs">
+                                    <img class="mb-3 profileImg" src="images/earl hazel.jpg" id="settingsImg">
+                                    <div>
+                                        <img src="images/icon/Group 317.svg" alt="" id="sub-img">
+                                    </div>
+                                </div>
+                                <h5 class="card-title fw-bold" id="name">Emily Haden</h5>
+                                <h6 class="card-subtitle" id="email">emilyhaden@gmail.com</h6>
+                            </div>
+                            <hr>
+                            <div class="p-4 pb-5">
+                                <h5 class="card-title fw-bold">Description</h5>
+                                <h6 class="card-text" id="description">Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Quidem molestiae quo eveniet, veritatis velit eius autem. Animi,
+                                    repellendus explicabo sunt atque earum, ipsa minima eveniet nihil dolorem
+                                    consequuntur iure eligendi.</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-12 col-md-6">
+                    <div class="card mb-4 settingsCard pb-2" id="settings-form">
+
+                        <div class="card-body">
+                            <p class="card-title px-3 pt-3 fw-bold">
+                                Account ID: <span id="accountId"></span>
+                            </p>
+                            <hr>
+                            <form class="px-3 pb-3">
+                                <div class="row mt-4">
+                                    <div class="mb-3 col ">
+                                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="janedoe@example.com">
+                                    </div>
+                                    <div class="mb-3 col">
+                                        <label for="exampleInputUsername1" class="form-label">Username</label>
+                                        <input type="text" class="form-control" id="exampleInputUsername1"
+                                            placeholder="Jane123">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="mb-3 col">
+                                        <label for="exampleInputFirstName1" class="form-label">First
+                                            Name</label>
+                                        <input type="text" class="form-control" id="exampleInputFirstName1"
+                                            placeholder="Jane">
+                                    </div>
+                                    <div class="mb-3 col">
+                                        <label for="exampleInputLastName1" class="form-label">Last Name</label>
+                                        <input type="text" class="form-control" id="exampleInputLastName1"
+                                            placeholder="Doe">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="mb-3 col">
+                                        <label for="exampleInputAddress1" class="form-label">Address</label>
+                                        <input type="text" class="form-control" id="exampleInputAddress1"
+                                            placeholder="1234 Main St.">
+                                    </div>
+
+                                    <div class="mb-3 col">
+                                        <label for="exampleInputDate1" class="form-label">Birthday</label>
+                                        <input type="date" class="form-control" id="exampleInputDate1">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="mb-5 col">
+                                        <label for="exampleInputDescription1" class="form-label">Description</label>
+                                        <textarea type="text" class="form-control pb-3" id="exampleInputDescription1"
+                                            placeholder="Dr. Jane Doe is an oncologist at St. Peter's hospital in Colorado. She's rated 4.9 stars."></textarea>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary mt-2">Update Account</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /.container-fluid -->
+
+        </div>
+    </main>
+
+    <script src="./js/jquery-3.5.1.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
